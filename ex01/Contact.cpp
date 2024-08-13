@@ -59,7 +59,7 @@ static std::string trunc(std::string str, int size)
 void	Contact::printContact(int id)
 {
 	std::cout << "║";
-	WIDTH(10);y
+	WIDTH(10);
 	std::cout << id << "║";
 	std::cout << trunc(first_name, 10) << "║";
 	std::cout << trunc(last_name, 10) << "║";

@@ -23,7 +23,7 @@ void PhoneDir::printContacts()
 {
 	std::cout << "╔══════════╦══════════╦══════════╦══════════╗" << std::endl;
 	std::cout << "║    ID    ║First name║ Lastname ║ Nickname ║" << std::endl;
-	for (int i = 0; i < max; i++)
+	for (int i = 0; i <= max; i++)
 	{
 		contacts[i].printContact(i);
 		std::cout << std::endl;	
