@@ -2,7 +2,9 @@ NAME	=	contacts
 
 CPP		=	c++ -Wall -Wextra -Werror -std=c++98
 
-SRC		=	contacts.cpp
+SRC		=	contacts.cpp		\
+			Contact.cpp			\
+			PhoneDir.cpp
 
 all		:
 	$(CPP) $(SRC) -o $(NAME)
