@@ -12,7 +12,7 @@ void	print_upper(std::string str)
 int	main(int ac, char **av)
 {
 	if (ac == 1)
-		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
+		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
 	
 	for (int i = 1; i < ac; i++)
 	{
